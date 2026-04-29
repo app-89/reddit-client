@@ -18,44 +18,72 @@ It focuses on readability, performance, and a smooth user experience—making it
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 src/
 │
+
 ├── app/
+
 │   └── store.js
+
 │
 ├── features/
+
 │   ├── posts/
+
 │   │   ├── postsSlice.js
+
 │   │   ├── postsList.js
+
 │   │   ├── postCard.js
+
 │   │   └── postDetail.js
+
 │   │
 │   ├── subreddits/
+
 │   │   ├── subredditsSlice.js
+
 │   │   └── SubredditList.js
+
 │   │
 │   ├── search/
+
 │   │   ├── searchSlice.js
+
 │   │   └── SearchBar.js
+
 │
 ├── components/
+
 │   ├── Header.js
+
 │   ├── Sidebar.js
+
 │   ├── Loader.js
+
 │   ├── ErrorMessage.js
+
 │
 ├── services/
+
 │   └── redditApi.js
+
 │
 ├── utils/
+
 │   └── helpers.js
+
 │
 ├── App.js
+
 ├── index.js
+
 └── styles/
+
     └── global.css
+    
 
 ---
 
