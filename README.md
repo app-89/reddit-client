@@ -20,42 +20,9 @@ It focuses on readability, performance, and a smooth user experience—making it
 
 ## Project Structure
 
-src/
-│
-├── app/
-│   └── store.js
-│
-├── features/
-│   ├── posts/
-│   │   ├── postsSlice.js
-│   │   ├── postsList.js
-│   │   ├── postCard.js
-│   │   └── postDetail.js
-│   │
-│   ├── subreddits/
-│   │   ├── subredditsSlice.js
-│   │   └── SubredditList.js
-│   │
-│   ├── search/
-│   │   ├── searchSlice.js
-│   │   └── SearchBar.js
-│
-├── components/
-│   ├── Header.js
-│   ├── Sidebar.js
-│   ├── Loader.js
-│   ├── ErrorMessage.js
-│
-├── services/
-│   └── redditApi.js
-│
-├── utils/
-│   └── helpers.js
-│
-├── App.js
-├── index.js
-└── styles/
-    └── global.css
+<img width="262" height="668" alt="file structure" src="https://github.com/user-attachments/assets/f76f5dc8-582b-4c50-976f-4ce1b79461a7" />
+
+
 ---
 
 ## Future Improvements
