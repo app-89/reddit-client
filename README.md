@@ -56,7 +56,6 @@ src/
 ├── index.js
 └── styles/
     └── global.css
-
 ---
 
 ## Future Improvements
