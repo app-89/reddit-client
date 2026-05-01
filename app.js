@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 
@@ -30,24 +30,20 @@ const initialState = {
   }
 }
 
-function rootReducer(state = initialState, action) {
+function posts(state = initialState.posts, action) {
   switch (action.type) {
     case 'SET_POSTS':
       return {
         ...state,
-        posts: {
-          items: action.payload,
-          isLoading: false,
-          error: null,
-          items: action.payload
-        }
+        items: action.payload,
+        isLoading: false,
+        error: null
       };
     default:
       return state;
   }
 }
 
-export const store = createStore(rootReducer);
 function subreddits(state = initialState.subreddits, action) {
   switch (action.type) {
     // Add subreddit-related actions here
@@ -68,8 +64,8 @@ const rootReducer = combineReducers({
   posts,
   subreddits,
   search
-export const store = createStore(rootReducer, applyMiddleware(thunk));
-
 });
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 export default store;
