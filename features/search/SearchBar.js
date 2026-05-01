@@ -1,3 +1,8 @@
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { fetchSearchResults } from "../../app/store";
+import "./SearchBar.css";
+
 const SearchBar = () => {
   const [term, setTerm] = useState("");
   const dispatch = useDispatch();
@@ -12,3 +17,4 @@ const SearchBar = () => {
     />
   );
 };
+export default SearchBar;
