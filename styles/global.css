@@ -23,7 +23,7 @@
       }
 
       a {
-          color: #113b7f;
+          color: #ff4500;
           font-weight: normal!important;
           text-decoration: none!important;
       }
@@ -36,7 +36,7 @@
           left: 0px;
           bottom: 0px;
           width: 150px;
-          background: #113b7f;
+          background: #ff4500;
           text-align: center;
           box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
       }
@@ -200,7 +200,7 @@
 
       .RESDropdownList li, .res-icon {
           border: none;
-          color: #113b7f;
+          color: #ff4500;
           font-size: 10px;
           font-weight: normal;
           line-height: 30px;
@@ -215,7 +215,7 @@
       }
 
       .RESDropdownList li:hover, .RESMenuItemButton:hover, .RESDropdownList li:hover .res-icon {
-          background: #113b7f;
+          background: #ff4500;
           color: white;
       }
 
@@ -250,12 +250,12 @@
       #sr-header-area .drop-choices a.choice, .drop-choices.lightdrop.inuse a {
           padding: 5px 8px;
           font-size: 9px;
-          color: #113b7f;
+          color: #ff4500;
           text-transform: uppercase;
       }
 
       #sr-header-area .drop-choices a.choice:hover, .drop-choices.lightdrop.inuse a:hover {
-          background: #113b7f;
+          background: #ff4500;
           color: white;
       }
 
@@ -269,7 +269,7 @@
 
       .content { margin: 20px 345px 0px 40px; }
 
-      .content a { color: #113b7f; }
+      .content a { color: #ff4500; }
 
       .link, .commentarea .link.promotedlink.promoted {
           background: white;
@@ -279,7 +279,7 @@
           box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
       }
 
-      .link.stickied { border: 1px solid #113b7f; }
+      .link.stickied { border: 1px solid #ff4500; }
 
       section.infobar.newsletterbar.newsletter-container {
           width: 100%;
@@ -313,7 +313,7 @@
 
       .link:hover .rank { margin-left: -45px; }
 
-      .link.stickied .rank { border-color: #113b7f; }
+      .link.stickied .rank { border-color: #ff4500; }
 
       .arrow {
           background-position: 0px 0px!important;
@@ -338,7 +338,7 @@
           color: #888;
       }
 
-      .link .score.likes { color: #113b7f; }
+      .link .score.likes { color: #ff4500; }
 
       .link .score.dislikes { color: #c0392b; }
 
@@ -353,7 +353,7 @@
           border-radius: 50%;
       }
 
-      .thing.stickied.link .thumbnail { border-color: #113b7f; }
+      .thing.stickied.link .thumbnail { border-color: #ff4500; }
 
       .thing.stickied.link .thumbnail.default { background: url(%%icon-stickied-link-post%%) }
 
@@ -388,7 +388,7 @@
 
       .author, time { font-size: 10px; }
 
-      .author { color: #113b7f!important; }
+      .author { color: #ff4500!important; }
 
       .link time:after { content: ' - '; }
 
@@ -431,7 +431,7 @@
 
       .entry .buttons li a {
           font-weight: normal;
-          color: #113b7f;
+          color: #ff4500;
       }
 
       .comment-visits-box .title {
@@ -465,7 +465,7 @@
 
       .btn, button, .tabmenu.formtab a, .tabmenu.formtab .selected a, .pretty-button {
           padding: 6px 16px;
-          background: #113b7f;
+          background: #ff4500;
           border: none;
           border-radius: 0px;
           outline: 0px;
@@ -590,7 +590,7 @@
           display: block;
           position: relative;
           margin-bottom: 10px;
-          background: #113b7f;
+          background: #ff4500;
           border: none;
           box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
       }
@@ -613,7 +613,7 @@
       }
 
       .morelink:hover {
-          background: #113b7f;
+          background: #ff4500;
           opacity: 0.7;
       }
 
@@ -633,7 +633,7 @@
 
       .fancy-toggle-button .active {
           padding: 6px 12px;
-          background: #113b7f;
+          background: #ff4500;
           border: none;
           border-radius: 0px;
           outline: 0px;
@@ -680,7 +680,7 @@
           border-bottom: 1.5px solid white;
       }
 
-      .side .md-container a { color: #113b7f; }
+      .side .md-container a { color: #ff4500; }
 
       .side .titlebox, .sidecontentbox .content, .login-form-side, .sidebox .spacer.no-icon, .footer {
           padding: 8px;
@@ -711,7 +711,7 @@
       }
 
       .flair-mod {
-          border-color: #113b7f;
-          color: #113b7f;
+          border-color: #ff4500;
+          color: #ff4500;
       }
         
